@@ -32,4 +32,4 @@ Currently extending into dollar bars — a more informative bar type from Lopez 
 
 ## Connect
 
-- [LinkedIn](YOUR_LINKEDIN_URL_HERE)
+- [LinkedIn](https://www.linkedin.com/in/leonard-soukka-489657b/)
