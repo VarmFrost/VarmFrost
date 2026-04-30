@@ -12,7 +12,7 @@ Building financial ML systems from first principles — from raw market data to 
 A progressive series of focused examples covering the core concepts behind every neural network:
 autograd → linear regression → single neuron → overfitting → gradient descent → batch normalization.
 
-**financialProject** — Crypto price direction predictor  
+**[financialProject](https://github.com/FinancialML-dev/projects)** — Crypto price direction predictor  
 A full supervised ML pipeline built on BTC/USD data from the Alpaca API:
 - Fetches and visualizes OHLCV candlestick data
 - Engineers features using sliding-window return sequences
