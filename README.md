@@ -4,7 +4,7 @@ Building financial ML systems from first principles — from raw market data to 
 
 ## FinancialML-dev
 
-**[FinancialML-dev](https://github.com/FinancialML-dev)** is my organization for quantitative finance and machine learning projects.
+**@[FinancialML-dev](https://github.com/FinancialML-dev)** is my organization for quantitative finance and machine learning projects.
 
 ### Projects
 
