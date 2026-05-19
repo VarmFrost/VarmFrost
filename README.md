@@ -15,17 +15,15 @@ autograd → linear regression → single neuron → overfitting → gradient de
 **[financialProject](https://github.com/FinancialML-dev/projects)** — Crypto price direction predictor  
 A full supervised ML pipeline built on BTC/USD data from the Alpaca API:
 - Fetches and visualizes OHLCV candlestick data
-- Engineers features using sliding-window return sequences
+- Constructs dollar bars (inspired by Lopez de Prado's *Advances in Financial Machine Learning*) for more information-rich sampling than fixed time intervals
+- Engineers features: using sliding-window return sequences, rolling volatility, RSI, moving average deviation, order flow imbalance (OFI)
 - Trains a 3-layer neural network to predict next candle direction (up/down)
 - Evaluates with accuracy, precision, recall, F1, and confusion matrix
-
-Currently extending into dollar bars — a more informative bar type from Lopez de Prado's
-*Advances in Financial Machine Learning*.
 
 ## Tech Stack
 
 - **Language:** Python
-- **ML:** PyTorch, NumPy, pandas
+- **ML:** PyTorch, NumPy, pandas, scikit-learn
 - **Finance:** Alpaca API, alpaca-py
 - **Visualization:** Plotly, Matplotlib
 - **Environment:** uv
